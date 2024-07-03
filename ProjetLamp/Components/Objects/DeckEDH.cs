@@ -20,6 +20,12 @@ namespace ProjetLamp.Components.Objects
         }
 
         /// <summary>
+        /// Id of the user
+        /// </summary>
+        private int UserId { get; set; }
+        public int GetUserId => UserId;
+
+        /// <summary>
         /// Deck list's name
         /// </summary>
         private string Name { get; set; }
