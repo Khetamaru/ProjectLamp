@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using ProjetLamp.Components.Toolbox;
 
 namespace ProjetLamp
 {
