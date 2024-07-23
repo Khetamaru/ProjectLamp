@@ -1,0 +1,13 @@
+﻿@page "/scryfall"
+
+@using ProjetLamp.Components.Pages.Components
+@inherits CBScryfall
+
+<h1>Recherche Scryfall</h1>
+
+<textarea @bind=@searchtext></textarea>
+<button onclick="@search">Recherche</button>
+
+<h3>@card.name</h3>
+
+<img src=@cardUri>
